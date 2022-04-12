@@ -180,6 +180,8 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 600px){
+
+
     .header {
         display: grid;
         width: 100vw;
@@ -216,12 +218,11 @@
         grid-template-rows: 1fr 1fr 1fr;
         gap: 30px;
         margin: 100px;
-        height: 100vh;
     }
 
     .second-block button {
         display: grid;
-        grid-area: 4/2/5/3;
+        grid-area: 4/1/5/3;
         cursor: pointer;
         user-select: none;
         appearance: none;
@@ -230,11 +231,7 @@
 
     .footer  {
         display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(2, 1fr);
-        grid-area: 4/1/5/2;
         
     }
-
 
 }
